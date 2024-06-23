@@ -1,5 +1,97 @@
-/*
 body {
     background: rgb(3, 0, 17);
-    background: radial-gradient(circle, rgba(4,0,37,1) 20%, rgba(0,0,0,1) 100%);
-}*/
+    background: radial-gradient(circle, rgba(4, 0, 37, 1) 20%, rgba(0, 0, 0, 1) 100%);
+}
+
+.app {
+    color: white;
+
+}
+
+.app hr{
+    margin: 10px;
+}
+
+.appbar-block {
+    background-color: rgba(52, 52, 52, 0.297);
+    display: flex;
+    border-radius: 12px;
+    justify-content: flex-end;
+
+}
+
+.appbar-block h2 {
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutme img{
+    height: 360px;
+    margin: 50px;
+}
+
+.projetcts{
+    text-align: center;
+}
+
+.projetcts img{
+    margin: 20px;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.education img{
+    border-radius: 12px;
+    height: 380px;
+    width: auto;
+    margin: 10px;
+}
+
+.Certifications h1 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.Certificationsobjects img {
+    align-items: center;
+    height: auto;
+    width: 200px;
+    margin: 20px;
+}
+
+
+.Contacts h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+
+.Contacts .Contact-objects {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.Contacts .Contact-objects img {
+    background-color: white;
+    width: 50px; 
+    margin: 10px;
+    
+}
+
+.diretizes{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
