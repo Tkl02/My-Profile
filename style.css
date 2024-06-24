@@ -1,6 +1,6 @@
 body {
     background: rgb(3, 0, 17);
-    background: radial-gradient(circle, rgb(8, 0, 80) 20%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgb(7, 0, 70) 20%, rgb(2, 0, 20) 100%);
 }
 
 .app {
@@ -24,9 +24,9 @@ body {
 .appbar-block {
     background-color: rgba(17, 0, 127, 0.297);
     display: flex;
-    border-radius: 12px;
+    border-radius: 15px;
     justify-content: flex-end;
-    padding: 12px;
+    padding: 14px;
 
 }
 
@@ -39,11 +39,12 @@ body {
 .aboutme{
     display: flex;
     align-items: center;
+    text-align: center;
 
 }
 
 .aboutme img{
-    height: 360px;
+    height: 400px;
     margin: 50px;
 }
 
@@ -93,7 +94,7 @@ body {
 }
 
 .Contacts .Contact-objects img {
-    background-color: white;
+    
     width: 50px; 
     margin: 10px;
     
